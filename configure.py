@@ -118,6 +118,8 @@ def symlink_force(target, link_name):
     else:
       raise e
 
+print("hi")
+
 
 def write_to_bazelrc(line):
   with open(_TF_BAZELRC, 'a') as f:
